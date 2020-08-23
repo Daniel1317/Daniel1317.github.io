@@ -1,0 +1,116 @@
+﻿body {
+	color: #F5F5F5;
+	margin: 0;
+	font-variant:small-caps;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #FF4500;
+}
+a:hover {
+	color:#FFD700;
+}
+
+#header {
+	background-image:url('Sterne.jpg');
+	padding: 10px 0;
+	margin: 0;
+}
+
+#mainHeading h1 {
+	text-align: center;
+	font-size: 60px;
+	background: -webkit-linear-gradient(yellow, yellow);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;						/* diese 3 Zeilen für Mehrfärbigen Text */
+	padding: 20px 0 30px 0;	
+}
+
+#mainListing li {
+	display: inline;
+	padding: 20px 40px;
+	text-align: center;
+	font-size: 20px;
+}
+
+#uebersicht {
+	border: black solid 3 px;
+	border-radius: 10px;
+	background-color: black;
+	color: #FFD700;
+	padding: 5px;
+}
+#planetenabstimmung {
+	border: black solid 3 px;
+	border-radius: 10px;
+	background-color: black;
+	color: #FFD700;
+	padding: 5px;
+}
+
+
+#middle {
+	background-color: #191970;
+	padding: 50px 0;
+	margin: 0;
+	text-align: center;
+}
+
+#middlePicture {
+	max-width: 100%;
+	border-radius: 20px;
+	text-align: center;
+	border: solid #4B0082 5px;
+}
+
+#jupiter, #saturn {
+	width: 400px;
+	height: 600px;
+	display: inline-block;
+	padding: 50px;
+	margin: 50px;
+	border: black 5px solid;
+}
+#erde, #mars {
+	width: 400px;
+	height: 600px;
+	display: inline-block;
+	padding: 50px;
+	margin: 50px;
+	border: black 5px solid;
+}
+#abstimmung {
+	width: 400px;
+	height: 400px;
+}
+
+#footer {
+	background-color: #2F4F4F;
+	padding: 50px 0;
+	color: #A9A9A9;
+}
+#footer h3 {
+	text-transform: uppercase;
+	font-weight:bold;
+	letter-spacing: 0.1em;
+	color: #191970;
+}
+
+#container {
+	display: inline-block;
+	width: 500px;
+	vertical-align: top;
+}
+
+#linksFooter {
+	text-align: left;
+}
+#descriptionFooter {
+	text-align: center;
+} 
+#contactFooter {
+	float: right;
+}
